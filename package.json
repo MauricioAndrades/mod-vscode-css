@@ -1,0 +1,25 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "vscode": "^1.21.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "gulp": "^4.0.2",
+    "gulp-html-postcss": "^7.1.4",
+    "gulp-postcss": "^9.0.1",
+    "postcss": "^8.4.21",
+    "postcss-unprefix": "^2.1.4"
+  },
+  "dependencies": {
+    "postcss-remove-prefixes": "^1.2.0"
+  }
+}
