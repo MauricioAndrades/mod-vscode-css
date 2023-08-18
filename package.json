@@ -17,7 +17,9 @@
     "gulp-html-postcss": "^7.1.4",
     "gulp-postcss": "^9.0.1",
     "postcss": "^8.4.21",
-    "postcss-unprefix": "^2.1.4"
+    "postcss-unprefix": "^2.1.4",
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard": "^34.0.0"
   },
   "dependencies": {
     "postcss-remove-prefixes": "^1.2.0"
