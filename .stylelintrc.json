@@ -1,1 +1,11 @@
-{ "extends": ["stylelint-config-standard"] }
+{
+    "extends": [
+        "stylelint-config-standard"
+    ],
+    "rules": {
+        "order/properties-alphabetical-order": true,
+        "no-descending-specificity": false,
+        "selector-class-pattern": false,
+        "custom-property-pattern":false
+    }
+}
