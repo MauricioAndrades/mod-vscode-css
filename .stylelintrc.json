@@ -3,9 +3,13 @@
         "stylelint-config-standard"
     ],
     "rules": {
-        "order/properties-alphabetical-order": true,
+        "custom-property-pattern": false,
+        "declaration-block-no-redundant-longhand-properties": false,
+        "font-family-no-missing-generic-family-keyword": false,
+        "keyframes-name-pattern": false,
         "no-descending-specificity": false,
+        "no-duplicate-selectors": false,
         "selector-class-pattern": false,
-        "custom-property-pattern":false
+        "selector-id-pattern": false
     }
 }
