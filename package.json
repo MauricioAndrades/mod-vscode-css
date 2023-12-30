@@ -1,27 +1,19 @@
 {
-  "name": "css",
+  "type": "module",
+  "name": "mod-vscode-custom-css",
   "version": "1.0.0",
-  "description": "",
+  "description": "where i keep my vscode css overrrides",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "engines": {
     "vscode": "^1.21.0"
   },
-  "author": "",
+  "author": "mod.and.op@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
-    "gulp": "^4.0.2",
-    "gulp-html-postcss": "^7.1.4",
-    "gulp-postcss": "^9.0.1",
-    "postcss": "^8.4.21",
+    "postcss": "^7.0.39",
     "postcss-unprefix": "^2.1.4",
     "stylelint": "^15.10.3",
     "stylelint-config-standard": "^34.0.0"
-  },
-  "dependencies": {
-    "postcss-remove-prefixes": "^1.2.0"
   }
 }
